@@ -1,0 +1,44 @@
+# Lists are a datatype you can use to store
+# a collection of different pieces of information
+# as a sequence under a single variable name.
+
+
+list.index("element of the list")
+list.insert("index", "element to insert")
+list.sort()
+# EXAMPLE OF DICTIONARY :
+d = {'key1' : 1, 'key2' : 2, 'key3' : 3}
+del dict_name[key_name]
+beatles = ["john","paul","george","ringo","stuart"]
+beatles.remove("stuart")
+
+
+PRINTING WITH VARIABLES
+prices = {"banana": 4,"apple": 2,"orange": 1.5,"pear": 3}
+stock = {"banana": 6, "apple": 0, "orange": 32, "pear": 15}
+
+for food in prices:
+  print food
+  print "price: %s" % prices[food]
+  print "stock: %s" % stock[food]
+
+REMOVE ELEMENTS FROM A LIST :
+  n.pop(index) will remove the item at index from the list and return it to you:
+
+  n.remove(item) will remove the actual item if it finds it:
+
+  del(n[1]) is like .pop in that it will remove the item at the given index, but it won't return it:
+
+
+
+RANGE() FUNCTION
+range() function is just a shortcut for generating a list, so you can use ranges in all the same places you can use lists.
+  range(6) # => [0, 1, 2, 3, 4, 5]
+  range(1, 6) # => [1, 2, 3, 4, 5]
+  range(1, 6, 3) # => [1, 4]
+
+  The range function has three different versions:
+
+  range(stop)
+  range(start, stop)
+  range(start, stop, step)
